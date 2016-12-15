@@ -1,5 +1,7 @@
-var restify = require('restify');
-var builder = require('botbuilder');
+//var restify = require('restify');
+//var builder = require('botbuilder');
+var builder = require('./node_modules/botbuilder');
+var restify = require('./node_modules/restify');
 
 // Get secrets from server environment
 var botConnectorOptions = { 
