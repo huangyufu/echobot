@@ -1,5 +1,6 @@
-var builder = require('../../core/');
-var restify = require('../../node_modules/restify');
+
+var builder = require('./node_modules/botbuilder');
+var restify = require('./node_modules/restify');
 
 //=========================================================
 // Bot Setup
